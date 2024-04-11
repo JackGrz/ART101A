@@ -8,8 +8,18 @@ body {
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: 'Times New Roman', Times, serif;
+/* In your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ h1{
+  font-family:'Orbitron', sans-serif;
+
+  color: black
+}
+h2,h3{
+  font-family:'Roboto', sans-serif;
+
+  color: white
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -24,7 +34,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #5baf81;
+  background-color: #2c6f4a;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
