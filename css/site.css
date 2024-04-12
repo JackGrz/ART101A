@@ -1,28 +1,18 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #222549;
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
-/* In your CSS file */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
-
 h1 {
-    font-family: 'Orbitron', sans-serif; /* Use Orbitron font for h1 */
-    color: #FFFFFF; /* White text for h1 */
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
 }
 
 h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Use Roboto font for h2 and h3 */
-    color: #FFFFFF; /* White text for h2 and h3 */
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
 }
-
-
-/* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 4px;
   word-spacing: 5px;
