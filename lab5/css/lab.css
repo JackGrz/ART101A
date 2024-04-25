@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .image-container {
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin-top: 10px;
+  }

@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
+	<title>Lab 5 - Data Types and Variables</title>
   	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 5 - Data Types and Variables</h1>
+			<body>
+				<div class="image-container">
+					<img src="img/corolla.jpg" alt="The 2019 Toyota Corolla LE in pearlescent white. As of 2024 it is a 5 year old car.">
+				</div>
+			</body>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p> The challene of this lab was to integrate variables and document writeln code in javascript and transfer said code into HTML.</p>
 			</div>
-
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p> For the most part this lab was very straightforward, however a slight problem arose when trying to insert our lab 5 JavaScript into our HTML webpage. During my first attempt to link the JS file to my HTML, i found that my JS data didn't transfer. Through rereeading my own code, however, I found that I missed a leading quotation mark that prevented HTML from sourcing the JS file. A simply syntactic error in a short assignment like this is not a big problem, but one can only imaging the headache it could cause a coder who is deep into their work, forcing them to scrounge through their previous lines of code to find a missing quotation mark. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>lab 5 proved itself to be a nice step forward into the realm of JavaScript and the interaction that it can have with both HTML and CSS. Personally, this assignment was relatively easy, in part to the group efforts made between my partner and I, however because of my syntactic slip-up I found myself reflecting on the importance of rereading my own code. Quality-wise, I think my final product covers all required bases in tasks 1-4 to a great degree.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<h3>Script Output</h3>
+						<div class="output"></div>
+						<script type = "text/javascript" src = "js/lab.js"></script>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
 	</main>
 </body>
