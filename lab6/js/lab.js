@@ -14,11 +14,12 @@ const myMainRide = {
   age: function () {
     return 2024- this.year;
   }
-}
+};
 
   //Output
   document.writeln ("How I get around town:" + myTransport + "<br>");
 
   //Object Output
   document.writeln ("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>")
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
