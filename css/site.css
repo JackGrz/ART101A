@@ -1,6 +1,6 @@
 
 body {
-  background-color: #222549;
+  background-color: #9e084e;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h2, h3 {
 }
 h4{
   font-family: 'Courier New', Courier, monospace;
-  color: red
+  color: rgb(255, 255, 255)
 }
 h1 {
   letter-spacing: 4px;
@@ -24,12 +24,13 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #333333;
+  border: solid 1px #ffffff;
+  background-color: #429add;
 }
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #567e8f;
+  background-color: #DDD8C4;
 }
