@@ -1,13 +1,11 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-  background-color: #001f3f; /* Dark navy blue */
+  background-color: #001f3f; 
   color: white;
 }
 
 .box {
-  border: 2px solid #FFA500; /* Bright orange */
+  border: 2px solid #FFA500; 
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -18,7 +16,7 @@ h3 {
   color: black;
   background-color: rgb(236, 200, 100);
   padding: 10px;
-  border: 2px solid #FFA500; /* Bright orange */
+  border: 2px solid #FFA500; 
   margin-bottom: 10px;
 }
 
@@ -37,5 +35,16 @@ h3 {
 .text-box {
   background-color: rgb(162, 134, 111);
   padding: 5px;
-  border: solid 1px black; /* Add a value for the border */
+  border: solid 1px black; 
+}
+
+.image-section {
+  border: 2px solid black; 
+  max-width: 500px;
+  margin-bottom: 10px; 
+}
+
+.image-section img {
+  width: 100%; 
+  height: auto;
 }
