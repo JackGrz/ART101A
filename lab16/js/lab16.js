@@ -1,7 +1,7 @@
-// Lab 15: AJAX
+// Lab 16: JSON and APIs
 // Author: Jack Grzegorzyk
-// Date: June 2nd, 2024
- // Description: This script fetches a random yes or no answer from the Yes or No API using AJAX and displays it on the webpage.
+// Date: June 7th, 2024
+ // Description: 
 
  $(document).ready(function() {
   $("#activate").click(function() {
